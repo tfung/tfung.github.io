@@ -48,8 +48,22 @@ body {
     padding-top: 60px;
 }
 
-#header a {
-    color: #EAE6E6;
+.inverse-block h5 {
+    font-style: italic;
+    color: #B6B5B5;
+}
+
+.normal-block h5 {
+    font-style: italic;
+    color: #656E7B;
+}
+
+.normal-block .progress {
+    background-color: #D5D5D5;
+}
+
+.normal-block .progress-bar {
+    background-color: #6F7379;
 }
 
 h1 {
@@ -62,14 +76,16 @@ h2 {
     color: #656E7B;
 }
 
-.inverse-block h5 {
-    font-style: italic;
-    color: #B6B5B5;
+a i {
+    padding-right: 10px;
 }
 
-.normal-block h5 {
-    font-style: italic;
-    color: #656E7B;
+#header a {
+    color: #EAE6E6;
+}
+
+#header a:hover {
+    color: #B6B5B5;
 }
 
 #about p {
@@ -88,8 +104,4 @@ h2 {
 
 #portfolio a {
     margin-right: 10px;
-}
-
-a i {
-    padding-right: 10px;
 }
